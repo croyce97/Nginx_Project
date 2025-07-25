@@ -34,7 +34,7 @@ npm run build
 ```
 * Configured Nginx as a reverse proxy with SSL support using a self-signed certificate
 ```
-sudo mkdir /etc/nginx/ssl/pern_app_ssl
+sudo mkdir /etc/nginx/ssl/pern_app_ssl 
 cd /etc/nginx/ssl/pern_app_ssl/
 
 sudo openssl req -x509 -nodes -days 365 \
